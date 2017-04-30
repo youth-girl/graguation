@@ -1,0 +1,19 @@
+<div class="contentWrapper" ng-controller="ContentController">
+    <div class="nav" ng-include="'src/module/nav/nav.html'"></div>
+    <div class="childContent">
+        <ul nav-content class="childContentWrapper">
+            <li>
+                <div ng-include="'src/module/childContent/userInfo/userInfo.html'"></div>
+            </li>
+            <li>
+                <div ng-include="'src/module/childContent/network/network.html'"></div>
+            </li>
+            <li>
+                <div ng-include="'src/module/childContent/equipInfo/equipInfo.html'"></div>
+            </li>
+            <li>
+                <div ng-include="'src/module/childContent/operateHardware/operateHardware.html'"></div>
+            </li>
+        </ul>
+    </div>
+</div>

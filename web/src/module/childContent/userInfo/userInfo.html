@@ -1,0 +1,13 @@
+<div class="userInfo" ng-controller="UserInfoController as vm">
+    <div  class="userNav" ng-include="'src/module/childContent/userInfo/userNav.html'"></div>
+    <div class="userContent">
+        <ul user-content class="userContentWrapper">
+            <li>
+                <div ng-include="'src/module/childContent/userInfo/userContent/userBasicInfo.html'"></div>
+            </li>
+            <li>
+                <div ng-include="'src/module/childContent/userInfo/userContent/modPassword.html'"></div>
+            </li>
+        </ul>
+    </div>
+</div>
